@@ -8,14 +8,20 @@
     <title>Template - Utilizar como modelo</title>
     <link rel="stylesheet" href="base.css">
     <style>
-        h2 {
-            color: #006eb6;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+        nav ul {
+            list-style: none;
+            margin: 0 50;
         }
 
-        fieldset {
-            border-radius: 12px;
-            color: #006eb6;
+        nav ul li a {
+            padding: 5px 15px;
+            color: #f8ecd2;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            color: white;
+            background-color: #006eb6;
         }
     </style>
 </head>
@@ -24,12 +30,14 @@
     <div class="wrapper">
         <div class="menu">
             <!-- Aqui vai o seu menu -->
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="atendimento.html">Atendimento</a></li>
-                <li><a href="contatos.html">Contatos</a></li>
-            </ul>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><b>Home</b></a></li><br>
+                    <li><a href="sobre.html"><b>Sobre</b></a></li><br>
+                    <li><a href="atendimento.html"><b>Atendimento</b></a></li><br>
+                    <li><a href="contatos.html"><b>Contatos</b></a></li>
+                </ul>
+            </nav>
         </div>
 
         <div class="main">
